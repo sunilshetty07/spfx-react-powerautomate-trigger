@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-power-automate-client-side-solution",
+    "id": "0908edc7-7543-4650-a289-b0a012ae75ed",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-fx-power-automate description"
+      },
+      "longDescription": {
+        "default": "sp-fx-power-automate description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-power-automate Feature",
+        "description": "The feature that activates elements of the sp-fx-power-automate solution.",
+        "id": "b8eacf3c-6620-4d46-b27b-bb767f7746ff",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-power-automate.sppkg"
+  }
+}
