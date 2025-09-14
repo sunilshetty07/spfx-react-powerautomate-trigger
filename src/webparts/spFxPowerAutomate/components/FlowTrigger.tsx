@@ -10,7 +10,7 @@ const FlowTrigger: React.FC<IFlowTriggerProps> = ({ context }) => {
 
   const triggerFlow = async () => {
     const powerautomateURL =
-      "https://81b07adac380e965b84fe5494a9635.dd.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/fd094997c0ff42109252ca4adcdda243/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=_TyMnzAMImPsoe2bg-qdrRtMw_HV3jT-DyjkHyGg-UM"; // Replace with your flow's URL
+      "<<flow url get from trigger>>"; // Replace with your flow's URL
 
     try {
       console.log("Triggering Power Automate...");
